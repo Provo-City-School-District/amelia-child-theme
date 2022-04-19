@@ -55,3 +55,22 @@ add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /*==========================================================================================
 // ShortCodes
 ============================================================================================*/
+add_shortcode( 'modified-date', 'modifiedDate_func' );
+//sidebar controll [sidebar-control]
+function sidebar_func(){
+		//global $post;
+		   if(in_array( 117, get_post_ancestors($post))) {
+			   get_sidebar( 'about' );
+		   }
+		   elseif(in_array( 623, get_post_ancestors($post))) {
+			   get_sidebar( 'title-i' );
+		   }
+		   elseif(in_array( 122, get_post_ancestors($post))) {
+			   get_sidebar( 'policies-forms' );
+		   } elseif(in_array( 70, get_post_ancestors($post))) {
+			   get_sidebar( 'faculty-staff' );
+		   } else {
+			   get_sidebar( $sidebar );
+		   }
+}
+add_shortcode( 'sidebar-control', 'sidebar_func' );

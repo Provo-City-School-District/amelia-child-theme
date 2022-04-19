@@ -26,6 +26,7 @@ Variables
   --primary-color: #2f6384;
   --secondary-color: #e2806c;
   --accent-color: #ffffff;
+  --white: #ffffff;
 }
 
 
@@ -35,7 +36,7 @@ Theme specific coloring
 #mainSidebar, #mainFooter {
 	background-color: #2f6384;
 }
-#contentArea {background-color: #e2806c;}
+#contentArea {background-color: var(--secondary-color);}
 a {text-decoration: none;color:#45579c;}
 a:hover {color:#fc7e02;}
 #mainHeader #cludo-search-form .search-submit {background-color: #e2806c;}

@@ -84,7 +84,7 @@
 						}
 					?>
 					<ul>
-							<li class="ext"><a href="https://utahschoolgrades.schools.utah.gov/Home/SchoolOverAllPerformance?SchoolID=45549&DistrictID=1222&SchoolNbr=123&SchoolLevel=K8&IsSplitSchool=0&schoolyearendyear=2021">School Report Card</a></li>
+							<li class="ext"><a href="https://utahschoolgrades.schools.utah.gov/Home/SchoolOverAllPerformance?SchoolID=1224&DistrictID=1222&SchoolNbr=100&SchoolLevel=K8&IsSplitSchool=0&schoolyearendyear=2021">School Report Card</a></li>
 							<li class="int"><a href="https://provo.edu/title-i/">District Title I</a></li>
 							<li class="pdf"><a href="https://amelia.provo.edu/wp-content/uploads/2020/03/AE_Goals_1page_fy20.pdf"><span class="hidden">Amelia Earhart Elementary School </span>Goals At A Glance FY20</a></li>
 							<li class="ext"><a href="https://public.tableau.com/app/profile/data.and.statistics/viz/shared/PBR64BGZQ">Compare Schools</a></li>
